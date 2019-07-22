@@ -24,5 +24,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 
 ## Further help
 
+Update angular/cli to latest version: `npm install -g @angular/cli`
+
+Install other dependencies:
+  - `npm install --save @angular/material` OR `ng add @angular/material` (second statement will automatically configure project include it)
+  - `npm install --save bootstrap`
+  - `npm install --save rxjs-compat`
+
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 # MEAN-course

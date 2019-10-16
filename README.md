@@ -27,10 +27,27 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 Update angular/cli to latest version: `npm install -g @angular/cli`
 
 Install other dependencies:
-  - `npm install --save @angular/material` OR `ng add @angular/material` (second statement will automatically configure project include it)
-  - `npm install --save bootstrap`
+```npm install --save @angular/material```
+OR   (second statement will automatically configure project include it)
+```ng add @angular/material```
+
+Bootstrap:
+```npm install --save bootstrap```
+
+RXJS:
   - `npm install --save rxjs-compat`
-  - `npm install --save express`
+
+Express.js:
+```npm install --save express```
+
+Express.js package to parse requests:
+```npm install --save body-parser```
+
+Package to allow automatic reloading of server when a change is made (dev mode only):
+```npm install --save-dev nodemon``` 
+
+To run package above: (reference package.json for name of parameter)
+```npm run start:server```
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 # MEAN-course
